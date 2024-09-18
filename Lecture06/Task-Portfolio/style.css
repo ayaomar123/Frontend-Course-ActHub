@@ -1,0 +1,71 @@
+/*Using old school css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #331288c2;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #b09fda;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #15003cd9;
+}
+
+.img {
+    border-radius: 50%;
+    transition: 200ms all ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    cursor:zoom-in;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #021841;
+    transition: 200ms all ease-in-out;
+}
+
+li {
+    background-color: #614c9840;
+    padding: 1rem;
+    transition: 200ms all ease-in-out;
+    border: 1px solid #614c9840;
+    border-radius: 1rem;
+
+}
+
+li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transform: translateX(10px);
+}
