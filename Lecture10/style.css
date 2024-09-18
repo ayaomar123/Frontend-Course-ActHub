@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #3730a3;
+    --second-color: #4f46e5;
+}
+html {
+    font-size: 10px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body{
+    background-color: #e2e8f0;
+    display: flex;
+}
+
+main{
+    width: 100%;
+    max-width: 764px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 50px lightgray;
+
+
+}
+
+.result,.summary{
+    flex:1;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.result{
+    background: linear-gradient(to bottom,var(--main-color),var(--second-color));
+}
+
+.result h2{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.summary h2{
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: start;
+}
+.result h1{
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.result p{
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    opacity: 0.4;
+    margin-top: 2rem;
+}
+.result .circle{
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: linear-gradient(to top,var(--main-color),var(--second-color));
+}
+
+.result h2.score{
+    font-size: 4rem;
+}
+
+.result h2.total{
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+
+svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: #dbeafe;
+    color: #1e40af;
+    border-radius: 1.2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.summary-score{
+    margin-left: auto;
+    color: black;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin-top: auto;
+    font-size: 1.5rem;
+}
+
+.text{
+    margin: 0 1rem;
+}
+
+.slash,.final{
+    opacity: 0.4;
+    margin: auto;
+}
+
+.slash{
+    margin: 0 1rem;
+}
